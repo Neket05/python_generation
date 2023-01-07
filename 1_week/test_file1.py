@@ -5,3 +5,5 @@ d = 5
 print(d)
 a = 5
 print(a)
+f = a - d
+print(f)
