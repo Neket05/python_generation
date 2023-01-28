@@ -3,7 +3,7 @@ from typing import List, Tuple
 
 def int_to_string(number: int) -> str:
     """Take int value and return a stringified value"""
-    raise NotImplementedError
+    return str(number)
 
 
 def find_unique_elements_in_list(array: list) -> list:
@@ -53,3 +53,7 @@ def test_is_gps_available():
     assert not is_gps_available(("Lon", "c", "a"))
     assert is_gps_available(("Lat", "Lon"))
     assert is_gps_available(("1", "foo", "Lat", "bar", "Lon"))
+
+
+if __name__ == "__main__":
+    test_int_to_string()
